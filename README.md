@@ -15,20 +15,55 @@ Din uppgift är att ta fram en enkel applikation som:
   i de RSS-flöden i filen [feeds.json](feeds.json), sorterade i datumordning.
   För att klara av detta måste du slå samman innehållet från alla flöden och ta
   bort dubletter--innehåll som publicerats i fler än en kategori.
-- Resultatet kan se ut ungefär som nedan (här uttryckt i Markdown för att länka artiklarna).
+- Resultatet kan se ut ungefär som nedan:
 
 ### Exempelresultat
 
-1. [Man hittad död i bostad i Eda – två gripna](https://www.dn.se/sverige/man-hittad-dod-i-bostad-tva-gripna/)
-2. [Man hittad död – två gripna](https://www.expressen.se/nyheter/man-hittad-dod-tva-gripna/)
-3. [Inflationssiffror tryckte upp räntor – dollarn stärks](https://www.di.se/live/inflationssiffror-tryckte-upp-rantor-dollarn-starks/)
-4. [Fastighetsnestorn: Rätt av SBB att höja utdelningen](https://www.di.se/nyheter/fastighetsnestorn-ratt-av-sbb-att-hoja-utdelningen/)
-5. [Insändare. Svar: ”Swedbank tjänar inte några ränteintäkter på elstödet”](https://www.dn.se/insandare/svar-swedbank-tjanar-inte-nagra-ranteintakter-pa-elstodet/)
-6. [Fransk stjärna avstår VM – uppges oense med tränaren](https://www.hd.se/2023-02-24/fransk-stjarna-avstar-vm--uppges-oense-med-tranaren?utm_medium=rss&utm_source=site-feed&utm_campaign=rss-autodiscovery)
-7. [Ekobrottsåklagare till sargat krypto-bolag](https://www.di.se/nyheter/ekobrottsaklagare-till-sargat-krypto-bolag/)
-8. [Miriam Toews: Min mamma är mitt livs kärlek](https://www.dn.se/kultur/miriam-toews-min-mamma-ar-mitt-livs-karlek/)
-9. [Fredsskulptur invigdes på Dunkers – på ettårsdagen av den ryska invasionen](https://www.hd.se/2023-02-24/fredsskulptur-invigdes-pa-dunkers--pa-ettarsdagen-av-den-ryska-invasionen?utm_medium=rss&utm_source=site-feed&utm_campaign=rss-autodiscovery)
-10. [Karlssons VM-hopp efter sjukdomarna: "Bådar gott"](https://www.hd.se/2023-02-24/karlssons-vm-hopp-efter-sjukdomarna-badar-gott?utm_medium=rss&utm_source=site-feed&utm_campaign=rss-autodiscovery)
+```json
+[
+  {
+    "title": "Man hittad död i bostad i Eda – två gripna",
+    "link": "https://www.dn.se/sverige/man-hittad-dod-i-bostad-tva-gripna/"
+  },
+  {
+    "title": "Man hittad död – två gripna",
+    "link": "https://www.expressen.se/nyheter/man-hittad-dod-tva-gripna/"
+  },
+  {
+    "title": "Inflationssiffror tryckte upp räntor – dollarn stärks",
+    "link": "https://www.di.se/live/inflationssiffror-tryckte-upp-rantor-dollarn-starks/"
+  },
+  {
+    "title": "Fastighetsnestorn: Rätt av SBB att höja utdelningen",
+    "link": "https://www.di.se/nyheter/fastighetsnestorn-ratt-av-sbb-att-hoja-utdelningen/"
+  },
+  {
+    "title": "Insändare. Svar: ”Swedbank tjänar inte några ränteintäkter på elstödet”",
+    "link": "https://www.dn.se/insandare/svar-swedbank-tjanar-inte-nagra-ranteintakter-pa-elstodet/"
+  },
+  {
+    "title": "Fransk stjärna avstår VM – uppges oense med tränaren",
+    "link": "https://www.hd.se/2023-02-24/fransk-stjarna-avstar-vm--uppges-oense-med-tranaren?utm_medium=rss&utm_source=site-feed&utm_campaign=rss-autodiscovery"
+  },
+  {
+    "title": "Ekobrottsåklagare till sargat krypto-bolag",
+    "link": "https://www.di.se/nyheter/ekobrottsaklagare-till-sargat-krypto-bolag/"
+  },
+  {
+    "title": "Miriam Toews: Min mamma är mitt livs kärlek",
+    "link": "https://www.dn.se/kultur/miriam-toews-min-mamma-ar-mitt-livs-karlek/"
+  },
+  {
+    "title": "Fredsskulptur invigdes på Dunkers – på ettårsdagen av den ryska invasionen",
+    "link": "https://www.hd.se/2023-02-24/fredsskulptur-invigdes-pa-dunkers--pa-ettarsdagen-av-den-ryska-invasionen?utm_medium=rss&utm_source=site-feed&utm_campaign=rss-autodiscovery"
+  },
+  {
+    "title": "Karlssons VM-hopp efter sjukdomarna: \"Bådar gott\"",
+    "link": "https://www.hd.se/2023-02-24/karlssons-vm-hopp-efter-sjukdomarna-badar-gott?utm_medium=rss&utm_source=site-feed&utm_campaign=rss-autodiscovery"
+  }
+]
+```
+
 
 ## Instruktioner
 
