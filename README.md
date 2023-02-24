@@ -1,4 +1,4 @@
-# Uppgift för utvecklare på BNU
+# Uppgift för utvecklare på Bonnier News
 
 Bonnier News publicerar dagligen nya artiklar och annat redaktionellt
 material i sina olika tidningar.
