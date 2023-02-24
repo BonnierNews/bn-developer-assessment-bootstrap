@@ -19,37 +19,31 @@ Din uppgift är att ta fram en enkel applikation som:
 
 ### Exempelresultat
 
-1. [Folkhälsomyndigheten: Fler måste vaccinera sig](https://www.dn.se/sverige/folkhalsomyndigheten-fler-maste-vaccinera-sig/)
-2. [Sommarvärmen är tillbaka – tillfälligt](https://www.expressen.se/gt/sommarvarmen-ar-tillbaka-tillfalligt/)
-3. [Så vill Danmark locka arbetslösa skåningar](https://www.expressen.se/kvallsposten/sa-vill-danmark-locka-arbetslosa-skaningar/)
-4. [Amina Manzoor svarar på era frågor om pandemin](https://www.expressen.se/nyheter/coronaviruset/amina-manzoor-svarar-pa-era-fragor-om-pandemin-em4p6/)
-5. [Regionens besked: Då trappar vi ner vaccinationerna](https://www.expressen.se/gt/regionens-besked-da-trappar-vi-ner-vaccinationerna/)
-6. [Nalin Pekgul vittnade: ”Hatet var det verkliga skälet till att jag lämnade politiken”](https://www.dn.se/sverige/nalin-pekgul-vittnade-hatet-var-det-verkliga-skalet-till-att-jag-lamnade-politiken/)
-7. [Tegnell: Rekommendationer kan ligga kvar för ovaccinerade](https://www.expressen.se/nyheter/coronaviruset/tegnell-rekommendationer-kan-ligga-kvar-for-ovaccinerade/)
-8. [Även Moderna experimenterar med kombinerat covid- och influensavaccin](https://www.di.se/live/aven-moderna-experimenterar-med-kombinerat-covid-och-influensavaccin/)
-9. [Skäl att fira för champagnetillverkare](https://www.dn.se/ekonomi/skal-att-fira-for-champagnetillverkare/)
-10. [Nyanmälda arbetslösa sjönk i USA i förra veckan](https://www.di.se/live/nyanmalda-arbetslosa-sjonk-i-usa-i-forra-veckan/)
+1. [Man hittad död i bostad i Eda – två gripna](https://www.dn.se/sverige/man-hittad-dod-i-bostad-tva-gripna/)
+2. [Man hittad död – två gripna](https://www.expressen.se/nyheter/man-hittad-dod-tva-gripna/)
+3. [Inflationssiffror tryckte upp räntor – dollarn stärks](https://www.di.se/live/inflationssiffror-tryckte-upp-rantor-dollarn-starks/)
+4. [Fastighetsnestorn: Rätt av SBB att höja utdelningen](https://www.di.se/nyheter/fastighetsnestorn-ratt-av-sbb-att-hoja-utdelningen/)
+5. [Insändare. Svar: ”Swedbank tjänar inte några ränteintäkter på elstödet”](https://www.dn.se/insandare/svar-swedbank-tjanar-inte-nagra-ranteintakter-pa-elstodet/)
+6. [Fransk stjärna avstår VM – uppges oense med tränaren](https://www.hd.se/2023-02-24/fransk-stjarna-avstar-vm--uppges-oense-med-tranaren?utm_medium=rss&utm_source=site-feed&utm_campaign=rss-autodiscovery)
+7. [Ekobrottsåklagare till sargat krypto-bolag](https://www.di.se/nyheter/ekobrottsaklagare-till-sargat-krypto-bolag/)
+8. [Miriam Toews: Min mamma är mitt livs kärlek](https://www.dn.se/kultur/miriam-toews-min-mamma-ar-mitt-livs-karlek/)
+9. [Fredsskulptur invigdes på Dunkers – på ettårsdagen av den ryska invasionen](https://www.hd.se/2023-02-24/fredsskulptur-invigdes-pa-dunkers--pa-ettarsdagen-av-den-ryska-invasionen?utm_medium=rss&utm_source=site-feed&utm_campaign=rss-autodiscovery)
+10. [Karlssons VM-hopp efter sjukdomarna: "Bådar gott"](https://www.hd.se/2023-02-24/karlssons-vm-hopp-efter-sjukdomarna-badar-gott?utm_medium=rss&utm_source=site-feed&utm_campaign=rss-autodiscovery)
 
 ## Instruktioner
 
-- Du kan uppfylla uppgiften hur du vill; en webapp, ett web-API, en mobilapp,
-  ett library, en CLI-app, eller något annat.
-- Du kan använda vilket programmeringsspråk och ramverk du vill.
+- Du förväntas uppfylla uppgiften i form av en webbapplikation med Node.js.
 - Börja med att klona det här repot.
-- Din applikation behöver inte klara någon hög last. Fundera ändå på hur du
-  skulle kunna anpassa den för att klara mycket högre trafik, exempelvis köras
-  vid varje besök på Expressen.se. 
-- Lägg inte mer än fyra timmar på uppgiften. Håll det enkelt.
-- Tänk på hur du hade löst uppgiften om du haft mer tid. Fundera över vilka
-  avvägningar du gör, och vad du hade inkluderat eller jobbat vidare på
-  om du hade fortsatt att utveckla applikationen som en applikation redo att
-  driftsätta och vidareutveckla.
-- Lämna din lösning som en eller gärna flera commits till ett eget
-  git-repository på GitHub, GitLab eller liknande, tillsammans med en
-  instruktion som beskriver hur man kör applikationen, samt en kort beskrivning
-  av vilka avvägningar och avgränsningar du gjort.
-- När du skickat in din lösning, kommer du att få möjlighet att göra en mindre
-  förändring i en parprogrammeringsuppgift tillsammans med en kollega.
+- Din applikation behöver inte klara någon hög last. Fundera ändå på hur
+  du skulle kunna anpassa den för att klara mycket högre trafik,
+  exempelvis köras vid varje besök på Expressen.se.
+- Lägg inte mer än en dryg timme på uppgiften. Håll det enkelt.
+- Tänk på hur du hade löst uppgiften om du haft mer tid. Fundera över
+  vilka avvägningar du gör, och vad du hade inkluderat eller jobbat vidare
+  på om du hade fortsatt att utveckla applikationen som en applikation redo
+  att driftsätta och vidareutveckla.
+- När du har löst uppgiften, kommer du i mån av tid att få möjlighet att
+  göra förändringar tillsammans med kollegerna.
 
 ## Kom ihåg
 
